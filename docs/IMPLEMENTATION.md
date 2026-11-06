@@ -19,6 +19,10 @@ The supplied Newb-Complementary-REIMAGINED-Multiplatform.mcpack identifies itsel
 
 Its COPYRIGHT.txt states that the compiled Newb pack is CC BY-ND 4.0 and may only be redistributed unmodified; it also points to a separately MIT-licensed source repository. ELDORA will not copy, patch, bundle, or redistribute this compiled material. The pack is used only to inspect high-level layout and target-era compatibility clues. The compiled binary is not treated as a vanilla base or as source code.
 
+## Compiler compatibility
+
+The target is Minecraft Bedrock 1.26.60.6. Lazurite's 0.11.0 changelog states that its material change is incompatible with versions 26.50.25 through 26.60.21; Lazurite 0.12.0 adds ESSL_320 support for 26.60.28+. Therefore 0.10.0 is the candidate for 1.26.60.6, subject to confirming the actual material version in the target vanilla binary. Do not compile the target using 0.12.0 by default.
+
 ## Integration gate
 
 The helper is not a complete RenderDragon material and is not yet a distributable shader pack. Before integration and packaging, the project must pin and validate:
